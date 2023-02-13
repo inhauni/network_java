@@ -27,7 +27,7 @@ public class Day21 {
 		 
 		 catch (IOException ex) {         // Handle exceptions     }
 
-			
+			System.out.println("입출력 오류");
 
 		}
 
