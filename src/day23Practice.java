@@ -1,33 +1,29 @@
 
 import jdk.jshell.execution.Util;
 
+import java.util.Comparator;
+import java.util.Enumeration;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class day23Practice {
     public static void main (String[] args) {
 
+// 2번
+        enum Gender {남,여};
+        List<Integer> ages = List.of(25,20,29,28,32,18);
+        List<Gender> genders = List.of(Gender.남,Gender.여,Gender.남,Gender.여,Gender.남,Gender.여);
+        Stream<Integer> s1= ages.stream();
 
-        List<String> names = List.of("홍길동", "배장화", "임꺽정", "연흥부", "김선달", "황진이");
-        Stream<String> s1 = names.stream().filter(n -> n.charAt(0) < '이');
-        s1.forEach(x -> System.out.printf(x+" "));
-        System.out.println();
-        Stream<String> s2= names.stream().sorted();
-        s2.forEach(x -> System.out.printf(x+" "));
-        System.out.println();
-        Stream<String> s = names.stream().limit(1);
-        s.forEach(x -> {
-            Optional<String> o = Optional.of(x);
-            System.out.println(o);
-            System.out.println(o.get());
-        });
-        Stream<String> s3 = names.stream();
-        long num = s3.count();
-        System.out.println(num);
-
-
+        int sum1= s1.reduce(0,(a,b)->a+b);
+        System.out.println(sum1);
+        int max = ages.stream().max(Integer::compare).get();
+        System.out.println(max);
+        Double avg = ages.stream().collect(Collectors.averagingInt(x->x));
+        System.out.println(avg);
 
     }
 
