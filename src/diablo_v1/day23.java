@@ -1,5 +1,10 @@
 package diablo_v1;
 
+import diablo_v1.Axe;
+import diablo_v1.Barbarian;
+import diablo_v1.Bow;
+import diablo_v1.Sorcerer;
+
 public class day23 {
     // diablo v0.5
     public static void main(String[] args){

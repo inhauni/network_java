@@ -5,25 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2a46f1b-c3a2-44ba-870f-9b0b4e7d57ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diablo_v1/Amazon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diablo_v1/Axe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diablo_v1/Barbarian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diablo_v1/Bow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diablo_v1/Character.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diablo_v1/Orb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diablo_v1/Paladin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diablo_v1/Sorcerer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diablo_v1/WeaponBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diablo_v1/day23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/networkinterfacetest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/diablo_v1/day23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/diablo_v1/day23.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +44,7 @@
     "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.day23">
+  <component name="RunManager" selected="Application.test">
     <configuration name="day23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="diablo_v1.day23" />
       <module name="JavaProject" />
@@ -75,8 +59,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="JavaProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.day23" />
         <item itemvalue="Application.networkinterfacetest" />
       </list>
